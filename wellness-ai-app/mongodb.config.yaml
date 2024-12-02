@@ -1,0 +1,16 @@
+systemLog:
+  destination: file
+  path: "C:\\data\\log\\mongod.log"
+  logAppend: true
+
+storage:
+  dbPath: "C:\\data\\db"
+  journal:
+    enabled: true
+
+net:
+  bindIp: 127.0.0.1
+  port: 27017
+
+security:
+  authorization: disabled
